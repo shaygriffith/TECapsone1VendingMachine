@@ -6,14 +6,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Candy extends Item{
-    private String sound;
+    private final String sound= "Munch Munch, yum!";
 
-    public Candy(String name, double price, String position) {
-        super(name, price, position);
+
+    public Candy( String position,String name,  double price) {
+        super(position, name, price);
     }
 
     public String getSound(){
-        return "Munch Munch, yum!";
+        return sound;
     }
 }
 

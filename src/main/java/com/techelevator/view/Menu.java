@@ -7,7 +7,7 @@ import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-public class Menu extends VendingMachineCLI {
+public class Menu {
 
 	private PrintWriter out;
 	private Scanner in;

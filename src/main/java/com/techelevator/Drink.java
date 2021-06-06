@@ -1,14 +1,15 @@
 package com.techelevator;
 
 public class Drink extends Item {
+        private final String sound= "Glug Glug, yum!";
 
-        public Drink(String name, double price, String position) {
-                super(name, price, position);
+        public Drink( String position,String name,  double price) {
+                super(position, name, price);
         }
 
 
         public String getSound(){
-                return "Glug Glug, yum!";
+                return sound;
         }
 
 

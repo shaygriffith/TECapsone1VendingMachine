@@ -1,19 +1,16 @@
 package com.techelevator;
 
-import java.io.File;
-import java.io.FileReader;
-import java.util.ArrayList;
-import java.util.List;
+
 
 public class Gum extends Item{
-    private String sound;
+    private String sound = "Glug Glug, yum!";
 
-    public Gum(String name, double price, String position) {
-        super(name, price, position);
+    public Gum( String position,String name,  double price) {
+        super(position, name, price);
     }
 
     public String getSound(){
-        return "Glug Glug, yum!";
+        return sound;
     }
 
 
