@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class VendingMachine {
-    private Double balance;
+    private Double balance = 0.00;
     private Scanner in;
     private String choice;
     private static final Double ONE_DOLLAR = 1.0;
@@ -75,8 +75,6 @@ public class VendingMachine {
     public List<Item> getItemOptions(){
         return itemOptions;
  }
-
-
 }
 
 

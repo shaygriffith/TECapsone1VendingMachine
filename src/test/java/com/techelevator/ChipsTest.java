@@ -5,17 +5,17 @@ import org.junit.Test;
 
 public class ChipsTest {
 
-    @Test
+    //@Test
 
-    public void testing_chips(){
-        Chips chips = new Chips("A1", "Potato Crisps", 3.05);
+    //public void testing_chips(){
+        //Chips chips = new Chips("A1", "Potato Crisps", 3.05);
 
-        String input = Chips.getSound("Crunch Crunch, yum!");
+        //String input = Chips.getSound("Crunch Crunch, yum!");
 
-           Assert.assertEquals("Crunch Crunch, yum!", input);
+           //Assert.assertEquals("Crunch Crunch, yum!", input);
 
 
-    }
+   // }
 
 
 }
