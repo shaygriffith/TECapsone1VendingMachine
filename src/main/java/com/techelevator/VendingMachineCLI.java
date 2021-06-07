@@ -143,7 +143,6 @@ public class VendingMachineCLI {
                     } else if (vendingMachine.getBalance() < item.getPrice()) {
                         System.out.println("Insufficient Funds");
 
-
                     } else if (selectedItem.equalsIgnoreCase(item.getPosition())) {
                         selectedItem = item.getPosition();
                         System.out.println(item.getSound() + " " + item.getName() + " " + item.getPrice());
@@ -152,12 +151,6 @@ public class VendingMachineCLI {
 
                     }
                     //         vendingMachine.getItemOptions(selectedItem + item.getSound());
-
-
-                    //if selected item == null, print invalid selection **
-                    //else if numinmachine == 0, out of stock message **
-                    //else if vendingmachine.getbalance < getPrice println insufficient funds **
-                    //else vendingmachine.puchase, and pass through the selected item && getSound
                 }
                 isInvalid = false;
             } catch (Exception e) {
